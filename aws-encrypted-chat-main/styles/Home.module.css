@@ -1,0 +1,151 @@
+.background {
+  max-height: 100%;
+  height: 100vh;
+  background-color: rgba(252, 253, 255, 0.75);
+  backdrop-filter: blur(12px);
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: "roboto", sans-serif;
+  max-width: 520px;
+}
+
+.header {
+  display: flex;
+  height: 10%;
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(252, 253, 255, 0.75);
+  backdrop-filter: blur(12px);
+}
+
+.title {
+  height: auto;
+  width: 100%;
+  text-align: left;
+  line-height: 1.25;
+  font-size: 1.2rem;
+  font-family: "roboto", sans-serif;
+  font-weight: bold;
+  margin-left: 1rem;
+}
+
+.chatbox {
+  min-width: 100%;
+  height: 80%;
+  display: flex;
+  overflow-y: auto;
+  flex-direction: column-reverse;
+  text-align: center;
+}
+
+.formContainer {
+  width: 100%;
+  height: 10%;
+  background-color: rgba(252, 253, 255, 0.85);
+  backdrop-filter: blur(12px);
+}
+
+.formBase {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: "16px";
+  height: 100%;
+  width: 100%;
+  padding: 8px;
+}
+
+.textBox {
+  min-height: 48px;
+  width: 100%;
+  padding-left: 24px;
+  padding-right: 8px;
+  background-color: #eef2fb;
+  box-shadow: 0 4px 0 rgba(0,0,0,.1);
+  height: 3rem;
+  font-size: 1.2rem;
+  font-weight: normal;
+  outline: none;
+  border: none;
+  border-radius: 36px;
+  transition: 300ms;
+}
+
+.buttonImage {
+  background-color: #e6e9ee;
+  height: 3rem;
+  width: 3rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 100%;
+  box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.1);
+  margin-right: 8px;
+  transition: all 200ms ease 0s;
+}
+.buttonImage:hover {
+  background-color: #c2e7ff;
+  cursor: pointer;
+}
+.buttonImage:active {
+  transform: translateY(4px);
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.1);
+}
+.buttonImage img {
+  max-height: 1.5rem;
+  vertical-align: middle;
+}
+
+.buttonSend {
+  background-color: #e6e9ee;
+  height: 3rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 36px;
+  box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.1);
+  transition: all 200ms ease 0s;
+  width: 33%;
+}
+.buttonSend:hover {
+  background-color: #c2e7ff;
+  cursor: pointer;
+}
+.buttonSend:active {
+  transform: translateY(4px);
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.1);
+}
+.buttonSend img {
+  max-height: 50%;
+}
+
+.buttonUserProfile {
+  background-color: #e6e9ee;
+  height: 3rem;
+  width: auto;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 36px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding: 8px 16px;
+  transition: 300ms;
+}
+.buttonUserProfile:hover {
+  background-color: #c2e7ff;
+  cursor: pointer;
+}
